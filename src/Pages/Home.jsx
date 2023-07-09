@@ -5,6 +5,7 @@ import About from '../components/About'
 import Services from '../components/Services'
 import Portfolio from '../components/Portfolio'
 import Companies from '../components/Companies'
+import Footer from '../components/Footer'
 function Home() {
   return (
     <div>
@@ -14,6 +15,7 @@ function Home() {
         <Services></Services>
         <Portfolio></Portfolio>
         <Companies></Companies>
+        <Footer></Footer>
     </div>
   )
 }
