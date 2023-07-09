@@ -15,7 +15,7 @@ function Home() {
         <Services></Services>
         <Portfolio></Portfolio>
         <Companies></Companies>
-        <Footer></Footer>
+        <Footers></Footers>
     </div>
   )
 }
