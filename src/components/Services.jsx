@@ -10,7 +10,7 @@ import js from '../assets/js-file.png'
 function Services() {
   return (
     <>
-    <div className='text-black'>
+    <div id="sr" className='text-black'>
         <div className='text-center'>
           <h1 className="text-red-600">{services.heading}</h1>
           <hr className="w-20 h-2 mx-auto my-1 bg-red-600"/>

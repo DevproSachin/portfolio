@@ -1,5 +1,6 @@
 import React from 'react'
 import sachin from "../assets/intro image.png"
+import resume from "../assets/Resume.pdf"
 //import Anime from 'react-anime';
 import { Apptext } from '../Constants'
 import { TypeAnimation } from 'react-type-animation';
@@ -20,7 +21,9 @@ function Banner() {
   speed={10}
   repeat={Infinity}
 /></p>
-            <button className="my-5 bg-red-700 hover:bg-black transition-all rounded-2xl"> Know More </button>
+           <a href={resume} download>
+             <button className="my-5 bg-red-700 hover:bg-black hover:text-white transition-all rounded-2xl"> Download Resume </button>
+           </a>
         </div>
         <div className="right w-1/2">
            <img src= {sachin} alt="myimage" className=""/>

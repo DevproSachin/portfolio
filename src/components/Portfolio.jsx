@@ -7,7 +7,7 @@ import acme from '../assets/acme.png'
 import pacific from '../assets/pacific.png'
 function Portfolio() {
     return (
-        <div className='mb-[80px]'>
+        <div id="port" className='mb-[80px]'>
             <div className='text-center mt-[80px]'>
             <h1 className="text-red-600">Portfolio</h1>
             <hr className="w-20 h-2 mx-auto my-1 bg-red-600"/>
@@ -16,29 +16,29 @@ function Portfolio() {
            </div>
            <div className="row flex flex-wrap md:flex-nowrap gap-4 mb-5 mt-2 px-5 md:px-32">
                   <div className="projects bg-gray bg-opacity-[0.1] text-center">
-                      <img src={belle}/><br/>
+                      <a href="https://www.bellebathrooms.com.au/"target="_blank" ><img src={belle}/></a><br/>
                       <a href="https://www.bellebathrooms.com.au/" target="_blank" className="pt-5">BELLEBATHROOMS (Wordpress)</a>
                   </div>
-                  <div className="projects bg-gray bg-opacity-[0.1] text-center">
-                      <img src={ugg} className='h-[88%] object-cover'/><br/>
+                  <div className="projects bg-gray bg-opacity-[0.1] mb-5 md:mb-0 text-center">
+                  <a href="https://www.theuggstore.com.au/" target="_blank"><img src={ugg} className='h-[88%] object-cover'/></a><br/>
                       <a href="https://www.theuggstore.com.au/" target="_blank" className="pt-5">TheuggStore (Shopify)</a>
                   </div>
-                  <div className="projects bg-gray bg-opacity-[0.1] text-center">
-                      <img src={Drmonica} className='h-[88%] '/><br/>
-                      <a href="http://drmonicacrooks.com/" target="_blank" className="pt-5">DRMONICACROOKS (Wordpress)</a>
+                  <div className="projects bg-gray bg-opacity-[0.1] mb-5 md:mb-0 text-center">
+                  <a href="http://drmonicacrooks.com/" target="_blank"> <img src={Drmonica} className='h-[88%] '/> </a> <br/>
+                      <a href="http://drmonicacrooks.com/" target="_blank" className="pt-5 ">DRMONICACROOKS (Wordpress)</a>
                   </div>
            </div>
            <div className="row flex flex-wrap md:flex-nowrap gap-4 mb-5 mt-2 px-5 md:px-32">
                   <div className="projects bg-gray bg-opacity-[0.1] text-center">
-                      <img src={Bongo} className='h-[88%] object-cover'/><br/>
+                  <a href="https://www.bongoiot.com/" target="_blank"><img src={Bongo} className='h-[88%] object-cover'/></a><br/>
                       <a href="https://www.bongoiot.com/" target="_blank" className="pt-5">BONGOIOT(Wordpress ACF)</a>
                   </div>
                   <div className="projects bg-gray bg-opacity-[0.1] text-center">
-                      <img src={acme} className='h-[88%] object-cover'/><br/>
+                  <a href="https://www.bellebathrooms.com.au/" target="_blank"><img src={acme} className='h-[88%] object-cover'/></a><br/>
                       <a href="https://www.bellebathrooms.com.au/" target="_blank" className="pt-5">ACME (Shopify)</a>
                   </div>
                   <div className="projects bg-gray bg-opacity-[0.1] text-center">
-                      <img src={pacific}/><br/>
+                  <a href="https://www.pacificumtranslation.com/en/" target="_blank"><img src={pacific}/></a><br/>
                       <a href="https://www.pacificumtranslation.com/en/" target="_blank" className="pt-5">Pacificum (Wordpress)</a>
                   </div>
            </div>

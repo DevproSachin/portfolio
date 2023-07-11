@@ -11,7 +11,7 @@ import { IoLocation } from "react-icons/io5";
 function Footer() {
   return (
     <div>
-          <div className="flex flex-wrap justify-center bg-black">
+          <div id="ftr" className="flex flex-wrap justify-center bg-black">
       {/* Column 1 */}
       <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
         <div className=" p-4"> 
@@ -27,9 +27,9 @@ function Footer() {
       <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 ">
         <div className="text-white text-center p-4">Follow Me </div>
         <div className = 'content text-center flex justify-center text-white'>
-        <IoLogoInstagram className="text-white w-[30px] h-[30px]"/>
-        <IoLogoLinkedin className="text-white w-[30px] h-[30px]"/>
-        <IoLogoGithub className="text-white w-[30px]  h-[30px]"/>
+        <a href="https://www.instagram.com/sachinuxstudios/"><IoLogoInstagram className="text-white w-[30px] h-[30px]"/></a>
+        <a href="https://www.linkedin.com/in/sachin-sharma-295681183/"><IoLogoLinkedin className="text-white w-[30px] h-[30px]"/></a>
+        <a href="https://github.com/DevproSachin"><IoLogoGithub className="text-white w-[30px]  h-[30px]"/></a>
         <IoLogoWhatsapp className="text-white w-[30px] h-[30px]"/>
         </div>
       </div>
@@ -38,16 +38,18 @@ function Footer() {
       <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
         <div className="text-white text-center p-4">Contact Me </div>
         <div className = 'content text-center flex flex-col justify-center text-white'>
-        <IoCall className="text-white w-[30px] h-[30px]"/> <a href="tel:7814795249" className='mt-[-20px]'>7814795249</a>
-        <IoChatbox className="text-white w-[30px] h-[30px]"/> <a href="mailto:sachusharma233@gmail.com">Sachusharma233@gmail.com</a> 
-        <IoLocation className="text-white w-[30px] h-[30px]"/> Kangra HImachal pradesh Pin:176029
+        <ul>
+           <li> <IoCall className="text-white w-[30px] h-[30px] inline-flex"/> <a href="tel:7814795249" className='mt-[-20px]'>7814795249</a> </li>
+           <li>  <IoChatbox className="text-white w-[30px] h-[30px] inline-flex"/> <a href="mailto:sachusharma233@gmail.com">Sachusharma233@gmail.com</a>  </li>
+           <li>   <IoLocation className="text-white w-[30px] h-[30px] inline-flex"/> Kangra HImachal pradesh Pin:176029 </li>
+        </ul>  
         </div>
       </div>
 
       
     </div>
 
-      <div className='footer-copyright bg-black text-white text-center pb-5'>
+      <div className='footer-copyright bg-black text-white text-center pb-9 pt-5 md:pb-5 md:pt-0'>
            Copyright © 2023 Sachin personal Portfolio . Designed by Sachin
       </div>
     </div>

@@ -4,8 +4,8 @@ const About = () => {
     return (
         <div>
             
-            <div id="rt" className=" my-20 py-10 px-20 bg-gray-300 bg-opacity-10 shadow-red-500 text-center  h-[100vh] flex place-items-center bg-[url(assets/about.jpg)] bg-cover">
-              <div className='w-[70%] mx-auto p-8 bg-white bg-opacity-[0.5] rounded'>
+            <div id="rt" className=" my-20 py-10  md:px-20 bg-gray-300 bg-opacity-10 shadow-red-500 text-center  h-[100vh] flex place-items-center bg-[url(assets/about.jpg)] bg-cover">
+              <div className='w-[90%] md:w-[70%] mx-auto p-8 bg-white bg-opacity-[0.8] md:bg-opacity-[0.5] rounded'>
                 <h1 className='text-black'>About Me </h1>
                 <hr className="w-20 h-2  my-1 mx-auto bg-red-600"/>
                 <p className='text-black py-5'>I HAVE 4 +YEAR EXPERIENCE IN THE FIELD OF DESIGNING AND DEVELOPMENT.
