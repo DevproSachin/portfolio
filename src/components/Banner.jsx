@@ -21,8 +21,8 @@ function Banner() {
   speed={10}
   repeat={Infinity}
 /></p>
-           <a href={resume} download>
-             <button className="my-5 bg-red-700 hover:bg-black hover:text-white transition-all rounded-2xl"> Download Resume </button>
+           <a href={resume} className='text-white' download> 
+             <button className="my-5 bg-red-700  hover:bg-black hover:text-white transition-all rounded-2xl"> Download Resume </button>
            </a>
         </div>
         <div className="right w-1/2">
