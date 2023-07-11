@@ -24,11 +24,11 @@ function Header() {
         }
         {toggle ?
           <ul className="flex flex-col bg-gray-400 mt-8">
-            <li className="p-5 transition ease-in hover:scale-125">Home</li>
-            <li className="p-5 transition ease-in hover:scale-125">About</li>
-            <li className="p-5 transition ease-in hover:scale-125">Services</li>
-            <li className="p-5 transition ease-in hover:scale-125">Showcase</li>
-            <li className="p-5 transition ease-in hover:scale-125">Contact</li>
+            <li className="p-5 transition ease-in hover:scale-125"><a href="https://devprosachin.github.io/portfolio/" className="text-red-700 hover:text-black">Home</a> </li>
+            <li className="p-5 transition ease-in hover:scale-125"><a href="#rt" className="text-red-700 hover:text-black">About</a></li>
+            <li className="p-5 transition ease-in hover:scale-125"><a href="#sr" className="text-red-700 hover:text-black"> SKills </a></li>
+            <li className="p-5 transition ease-in hover:scale-125"><a href="#port" className="text-red-700 hover:text-black"> Showcase </a> </li>
+            <li className="p-5 transition ease-in hover:scale-125"><a href="#ftr" className="text-red-700 hover:text-black">Contact</a></li>
           </ul>
           : null}
       </div>
