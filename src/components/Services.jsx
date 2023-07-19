@@ -14,7 +14,7 @@ function Services() {
         <div className='text-center'>
           <h1 className="text-white">{services.heading}</h1>
           <hr className="w-20 h-2 mx-auto my-1 bg-red-600"/>
-          <p className='py-5 w-[70%] m-auto'>{services.description}</p>
+          <p className='py-5 w-[70%] m-auto text-white'>{services.description}</p>
         </div>
     </div>
     <div className='mt-10 px-5 md:px-32'>
