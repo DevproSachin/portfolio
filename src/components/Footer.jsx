@@ -11,7 +11,7 @@ import { IoLocation } from "react-icons/io5";
 function Footer() {
   return (
     <div>
-          <div id="ftr" className="flex flex-wrap justify-center bg-black">
+          <div id="ftr" className="flex flex-wrap justify-center bg-black bg-opacity-5">
       {/* Column 1 */}
       <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
         <div className=" p-4"> 

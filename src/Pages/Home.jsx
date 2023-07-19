@@ -6,9 +6,11 @@ import Services from '../components/Services'
 import Portfolio from '../components/Portfolio'
 import Companies from '../components/Companies'
 import Footer from '../components/Footer'
+import Background from '../components/Background'
 function Home() {
   return (
-    <div>
+    <div className='w-full h-screen bg-no-repeat bg-center'>
+       <div>
        <Header></Header>
        <Banner></Banner>
         <About></About>
@@ -16,6 +18,10 @@ function Home() {
         <Portfolio></Portfolio>
         <Companies></Companies>
         <Footer></Footer>
+       </div>
+       
+        
+       
     </div>
   )
 }

@@ -4,13 +4,28 @@ import resume from "../assets/Resume.pdf"
 //import Anime from 'react-anime';
 import { Apptext } from '../Constants'
 import { TypeAnimation } from 'react-type-animation';
+import {motion} from 'framer-motion'
 function Banner() {
   return (
    
-    <div className="flex flex-col md:flex-row my-14 justify-between place-items-center  md:px-32 px-5">
-        <div className=" left w-[100%] md:w-1/2">
-             <h1 className="text-red-700 text-4xl md:text-8xl  font-extrabold uppercase">{Apptext.hello} {Apptext.name}. </h1>
-             <p className="my-5 text-blue-900 text-4xl font-black"><TypeAnimation
+    <div className="flex flex-col md:flex-row my-14 justify-between  items-center  md:px-32 px-5">
+        <div className=" left w-[100%] h-full text-center">
+             <motion.h1  initial = {{ x:1250} } 
+             animate = {{x:0}}
+             transition={{
+                  duration:'1',
+                  delay:'1'
+
+             }} 
+             className="text-white text-4xl md:text-[150px] md:leading-[170px]  font-extrabold uppercase">{Apptext.hello} {Apptext.name}. </motion.h1>
+             <motion.div  initial = {{ y:1000} } 
+             animate = {{y:0}}
+             transition={{
+                  duration:'1',
+                  delay:'1.5'
+
+             }} >
+             <p className="my-5 text-white text-4xl font-black"><TypeAnimation
   sequence={[
     // Same substring at the start will only be typed once, initially
    `${Apptext.Designation}`,
@@ -24,10 +39,17 @@ function Banner() {
            <a href={resume} className='text-white' download> 
              <button className="my-5 bg-red-700  hover:bg-black hover:text-white transition-all rounded-2xl"> Download Resume </button>
            </a>
+           </motion.div>
         </div>
-        <div className="right w-[100%] md:w-1/2">
+        {/* <motion.div className="right w-[100%] md:w-1/2" initial = {{ x:1000} } 
+             animate = {{x:0}}
+             transition={{
+                  duration:'2',
+                  delay:'1'
+
+             }} >
            <img src= {sachin} alt="myimage" className=""/>
-        </div>
+        </motion.div> */}
 
     </div>
     

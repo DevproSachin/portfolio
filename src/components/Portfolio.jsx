@@ -5,11 +5,16 @@ import Drmonica from '../assets/monica.png'
 import Bongo from '../assets/Bongo.png'
 import acme from '../assets/acme.png'
 import pacific from '../assets/pacific.png'
+import {motion} from 'framer-motion'
 function Portfolio() {
     return (
-        <div id="port" className='mb-[80px]'>
+        <motion.div initial = {{opacity : 0,scale:0}}
+        whileInView={{opacity : 1,scale:1}}
+        transition={{duration:0.9 }}    
+        viewport = {{once:true}}  
+        id="port" className='mb-[80px]'>
             <div className='text-center mt-[80px]'>
-            <h1 className="text-red-600">Portfolio</h1>
+            <h1 className="text-white">Portfolio</h1>
             <hr className="w-20 h-2 mx-auto my-1 bg-red-600"/>
             <p className='py-5 w-[70%] m-auto'>As a passionate web developer, I'm thrilled to showcase my expertise, creativity, and dedication to crafting exceptional digital experiences.
                 With a focus on user-centric design and cutting-edge technologies, I strive to bring ideas to life and deliver seamless, visually stunning websites.</p>
@@ -42,7 +47,7 @@ function Portfolio() {
                       <a href="https://www.pacificumtranslation.com/en/" target="_blank" className="pt-5">Pacificum (Wordpress)</a>
                   </div>
            </div>
-        </div>
+        </motion.div>
     )
 }
 
