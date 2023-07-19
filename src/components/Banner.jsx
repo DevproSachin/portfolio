@@ -1,6 +1,6 @@
 import React from 'react'
 import sachin from "../assets/intro image.png"
-import resume from "../assets/Resume.pdf"
+import resume from "../assets/cv.pdf"
 //import Anime from 'react-anime';
 import { Apptext } from '../Constants'
 import { TypeAnimation } from 'react-type-animation';
