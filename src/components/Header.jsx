@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
+import { motion } from "framer-motion"
 function Header() {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div className="flex justify-between flex-row sm:flex-row  px-10 py-3">
+      <motion.div initial={{ opacity: 0,  y:-100}}
+    animate={{ opacity: 1 , y:10 , delay:2}}
+    transition={{ duration: 0.9 }}className="heads flex justify-between flex-row sm:flex-row  px-10 py-3">
         <a className="logos text-4xl text-black cursor-pointer font-extrabold" href="https://devprosachin.github.io/portfolio/"><span className="text-red-500">S </span>CODER!</a>
         <div className="hidden md:flex">
           <ul className=" gap-4 md:gap-14 cursor-pointer font-extrabold flex flex-row place-items-center"> 
@@ -32,7 +35,7 @@ function Header() {
           </ul>
           : null}
       </div>
-      </div>
+      </motion.div>
     
     </>
   )
