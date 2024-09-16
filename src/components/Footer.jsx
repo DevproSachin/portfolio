@@ -29,7 +29,7 @@ function Footer() {
         <div className = 'content text-center flex justify-center text-white'>
         <a href="https://www.instagram.com/sachinuxstudios/"><IoLogoInstagram className="text-white w-[30px] h-[30px]"/></a>
         <a href="https://www.linkedin.com/in/sachin-sharma-295681183/"><IoLogoLinkedin className="text-white w-[30px] h-[30px]"/></a>
-        <a href="https://github.com/DevproSachin"><IoLogoGithub className="text-white w-[30px]  h-[30px]"/></a>
+        <a href="https://github.com/DevproSachin" ><IoLogoGithub className="text-white w-[30px]  h-[30px]"/></a>
         <IoLogoWhatsapp className="text-white w-[30px] h-[30px]"/>
         </div>
       </div>
@@ -39,8 +39,8 @@ function Footer() {
         <div className="text-white text-center p-4">Contact Me </div>
         <div className = 'content text-center flex flex-col justify-center text-white'>
         <ul>
-           <li> <IoCall className="text-white w-[30px] h-[30px] inline-flex"/> <a href="tel:7814795249" className='mt-[-20px]'>7814795249</a> </li>
-           <li>  <IoChatbox className="text-white w-[30px] h-[30px] inline-flex"/> <a href="mailto:sachusharma233@gmail.com">Sachusharma233@gmail.com</a>  </li>
+           <li> <IoCall className="text-white w-[30px] h-[30px] inline-flex"/> <a href="tel:7814795249" className=" 'mt-[-20px]' text-white">7814795249</a> </li>
+           <li>  <IoChatbox className="text-white w-[30px] h-[30px] inline-flex"/> <a href="mailto:sachusharma233@gmail.com" className="text-white">Sachusharma233@gmail.com</a>  </li>
            <li>   <IoLocation className="text-white w-[30px] h-[30px] inline-flex"/> Kangra HImachal pradesh Pin:176029 </li>
         </ul>  
         </div>
