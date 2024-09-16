@@ -14,15 +14,15 @@ function Companies() {
                  <div className='flex justify-around text-center flex-wrap md:flex-nowrap mt-[80px] mb-[80px] px-5 md:px-32'>
                     <div className='mb-5 md:mb-0'>
                      <img src={softweaver} className='h-[80px] object-cover text-center mx-auto'></img>
-                     <h2 className='pt-5 text-center'>Softweaver Technologies (6mnths)</h2>
+                     <h2 className='pt-5 text-center text-white'>Softweaver Technologies (6mnths)</h2>
                      </div>
                      <div className='mb-5 md:mb-0'> 
                         <img src={aicreatives} className='h-[80px] object-cover text-center mx-auto'></img>
-                        <h2 className='pt-5 text-center'>Aicreatives (3y 10mnths)</h2>
+                        <h2 className='pt-5 text-center text-white'>Aicreatives (3y 10mnths)</h2>
                      </div>
                     <div className='mb-5 md:mb-0'>
                     <img src={rad} className='h-[80px] object-cover text-center mx-auto'></img>
-                    <h2 className='pt-5 text-center'>RadTech (7mnths)</h2>
+                    <h2 className='pt-5 text-center text-white'>RadTech (7mnths)</h2>
                     </div>
                     
                  </div>
