@@ -17,7 +17,7 @@ function Banner() {
                   delay:'1'
 
              }} 
-             className="text-white text-4xl md:text-[150px] md:leading-[170px]  font-extrabold uppercase">{Apptext.hello} {Apptext.name}. </motion.h1>
+             className="text-white text-4xl md:text-[150px] md:leading-[170px]  font-extrabold uppercase">{Apptext.hello}<br/> {Apptext.name}. </motion.h1>
              <motion.div  initial = {{ y:300} } 
              animate = {{y:0}}
              transition={{
