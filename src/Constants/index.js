@@ -1,6 +1,6 @@
 export const Apptext = {
     hello:"i'm",
-    name:"sachin sharma",
+    name:"sachin shrma",
     Designation:"Web Developer",
     Designation1:" And Web Designer",
 }
